@@ -11,6 +11,6 @@ public class SpellComponentData : ScriptableObject
     public float comfortCost;
     public float staminaThresholdCost;
     public float deathHealthCost;
-
+    [TextArea]
     public string shortAddRemoveDescription;
 }
