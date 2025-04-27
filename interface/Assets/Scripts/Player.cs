@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+[CreateAssetMenu]
+public class Player : ScriptableObject
 {
     public PlayerData playerData;
 
@@ -37,6 +38,28 @@ public class Player : MonoBehaviour
         var propertyInfo = playerData.GetType().GetProperty(stateName);
         if (propertyInfo == null) return;
         propertyInfo.SetValue(playerData, adjustment);
+    }
+
+    public void SpendSpellComponents()
+    {
+        // loop over current glyphsSelected and runesSelected
+        // spend values
+        // lock those components and their slots in the spell viewer
+    }
+
+    public void EndTurn()
+    {
+        SpendSpellComponents();
+
+        // we get potential back when our turn ends
+        playerData.potential = playerData.maxPotential;
+    }
+
+    public void CastSpell()
+    {
+        SpendSpellComponents();
+
+        // unlock all glyphs and runes, clear the spell viewer
     }
 
 }
