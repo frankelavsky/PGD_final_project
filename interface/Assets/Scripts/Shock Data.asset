@@ -18,6 +18,6 @@ MonoBehaviour:
   comfortCost: 2
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: +8 Health amd +3d20 + 80 Stamina damage. Shock type.
+  shortAddRemoveDescription: +8 Health and +3d20 + 80 Stamina damage. Shock type.
     Conjures a blast of electricity onto, towards, or from the target. If target
     is metallic or immersed in water, damage is 8H + 3d20 + 160S instead.
