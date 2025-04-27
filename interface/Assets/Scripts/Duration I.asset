@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Duration I
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
+  componentName: Duration I
+  componentType: Glyph
   potentialCost: 0
-  comfortCost: 0
+  comfortCost: 12
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: 
+  shortAddRemoveDescription: +2 recasts of the spell, one for each round after the
+    present.

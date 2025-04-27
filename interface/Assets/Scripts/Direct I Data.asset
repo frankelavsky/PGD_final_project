@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Direct I Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Direct I
+  componentType: Glyph
+  potentialCost: 5
+  comfortCost: 1
   staminaThresholdCost: 0
   deathHealthCost: 0
+  shortAddRemoveDescription: The ability to aim your spell at a target other than
+    yourself.

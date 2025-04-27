@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potential: 12
   comfort: 100
-  staminaThreshold: 200
+  staminaThreshold: 120
   deathHealth: 50
   runeLimit: 1
   glyphsSelected: []

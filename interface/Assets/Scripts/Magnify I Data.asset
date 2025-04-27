@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Magnify I Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Magnify I
+  componentType: Glyph
+  potentialCost: 3
+  comfortCost: 8
   staminaThresholdCost: 0
   deathHealthCost: 0
+  shortAddRemoveDescription: Double damage and healing listed by all runes. Does
+    not apply to glyphs or glyph effects.

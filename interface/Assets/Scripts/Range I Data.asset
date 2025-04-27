@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Range I Data
   m_EditorClassIdentifier: 
   componentName: Range I
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentType: Glyph
+  potentialCost: 3
+  comfortCost: 3
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: 
+  shortAddRemoveDescription: +10 units of casting range (distance from melee).

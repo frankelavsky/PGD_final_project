@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Cold Data
   m_EditorClassIdentifier: 
   componentName: Cold
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentType: Rune
+  potentialCost: 4
+  comfortCost: 2
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: 
+  shortAddRemoveDescription: +4 Health and + 4d20 + 170 Stamina damage. Cold type.
+    Conjures a blast of cold onto, towards, or from the target.

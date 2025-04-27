@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Blood Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Blood
+  componentType: Rune
+  potentialCost: 9
+  comfortCost: 8
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: 
+  shortAddRemoveDescription: +d20 + 10 Death Health healing. Heals 1d6+4 Limb Health
+    and stops 2d6+8 bleeding.

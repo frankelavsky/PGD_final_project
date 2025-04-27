@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Air Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Air
+  componentType: Rune
+  potentialCost: 5
+  comfortCost: 1
   staminaThresholdCost: 0
   deathHealthCost: 0
-  shortAddRemoveDescription: 
+  shortAddRemoveDescription: +5d20 + 250 Stamina damage. Blast type. Conjures a blast
+    of air onto, towards, or from the target. If used with Magnify, will deal 1d3
+    units of knockback.

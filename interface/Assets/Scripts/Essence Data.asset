@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Essence Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Essence
+  componentType: Rune
+  potentialCost: 6
+  comfortCost: 3
   staminaThresholdCost: 0
   deathHealthCost: 0
+  shortAddRemoveDescription: +15 Health and +2d20 Stamina damage. Divine type. Conjures
+    a blast of congealing essence onto, towards, or from the target. If target is
+    demon, essence, or undead, damage is 15H + 4d20 + 200S instead.

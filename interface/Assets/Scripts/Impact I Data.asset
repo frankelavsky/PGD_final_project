@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Impact I Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
+  componentName: Impact I
+  componentType: Glyph
   potentialCost: 0
-  comfortCost: 0
+  comfortCost: 9
   staminaThresholdCost: 0
   deathHealthCost: 0
+  shortAddRemoveDescription: +3d20 + 60 Stamina damage. Blast type.

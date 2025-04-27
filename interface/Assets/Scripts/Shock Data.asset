@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7f04d6c926962458095a23822de897, type: 3}
   m_Name: Shock Data
   m_EditorClassIdentifier: 
-  componentName: 
-  componentType: 
-  potentialCost: 0
-  comfortCost: 0
+  componentName: Shock
+  componentType: Rune
+  potentialCost: 4
+  comfortCost: 2
   staminaThresholdCost: 0
   deathHealthCost: 0
+  shortAddRemoveDescription: +8 Health amd +3d20 + 80 Stamina damage. Shock type.
+    Conjures a blast of electricity onto, towards, or from the target. If target
+    is metallic or immersed in water, damage is 8H + 3d20 + 160S instead.
