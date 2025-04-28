@@ -41,4 +41,11 @@ public class selectRune : MonoBehaviour {
     //     Debug.Log("setting status");
     //     Debug.Log(glyph.componentName);
     // }
+    public void UpdateValues() {
+        if (player.playerData.runesSelected.Contains(rune)) {
+            toggle.isOn = true;
+        } else {
+            toggle.isOn = false;
+        }
+    }
 }

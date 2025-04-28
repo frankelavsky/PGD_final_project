@@ -36,6 +36,14 @@ public class selectGlyph : MonoBehaviour {
         coordinator.updateGlyphSlots();
     }
 
+    public void UpdateValues() {
+        if (player.playerData.glyphsSelected.Contains(glyph)) {
+            toggle.isOn = true;
+        } else {
+            toggle.isOn = false;
+        }
+    }
+
     // public void setGlyphStatus()
     // {
     //     Debug.Log("setting status");

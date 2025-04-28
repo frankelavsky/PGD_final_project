@@ -10,6 +10,7 @@ public class selectSpellSlot : MonoBehaviour {
     public TMP_Text text;
     public int slotIndex; // = 0;
     public bool isRune = false;
+    public toggleCoordinator coordinator;
 
     void Start()
     {
@@ -84,8 +85,10 @@ public class selectSpellSlot : MonoBehaviour {
         } else {
             if (isRune) {
                 player.RemoveRune(spellComponent);
+                coordinator.updateRunePanel();
             } else {
                 player.RemoveGlyph(spellComponent);
+                coordinator.updateGlyphPanel();
             }
         }
     }

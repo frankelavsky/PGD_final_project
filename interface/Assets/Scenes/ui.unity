@@ -3087,6 +3087,7 @@ MonoBehaviour:
   text: {fileID: 408871775}
   slotIndex: 0
   isRune: 1
+  coordinator: {fileID: 1685793771}
 --- !u!1001 &957945225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3441,6 +3442,18 @@ PrefabInstance:
       value: 0.654088
       objectReference: {fileID: 0}
     - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.0068134167
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
       propertyPath: m_Colors.m_DisabledColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -3455,6 +3468,18 @@ PrefabInstance:
     - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
       propertyPath: m_Colors.m_DisabledColor.r
       value: 0.3962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030306958550521282, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.5647059
       objectReference: {fileID: 0}
     - target: {fileID: 6460247910985791091, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
       propertyPath: m_Name
@@ -3621,6 +3646,7 @@ MonoBehaviour:
   text: {fileID: 393599385}
   slotIndex: 4
   isRune: 0
+  coordinator: {fileID: 1685793771}
 --- !u!1001 &1076108864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3914,6 +3940,7 @@ MonoBehaviour:
   text: {fileID: 1431599740}
   slotIndex: 0
   isRune: 0
+  coordinator: {fileID: 1685793771}
 --- !u!1 &1274068530
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,6 +4191,7 @@ MonoBehaviour:
   text: {fileID: 1016421188}
   slotIndex: 3
   isRune: 0
+  coordinator: {fileID: 1685793771}
 --- !u!114 &1529846804 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7446005125406956644, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
@@ -4298,6 +4326,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c5bc5e782b2e2848888827030adb33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  glyphs:
+  - {fileID: 1396424833}
+  - {fileID: 708610500}
+  - {fileID: 688290725}
+  - {fileID: 821220464}
+  - {fileID: 1532273354}
+  runes:
+  - {fileID: 9857772}
+  - {fileID: 1443593674}
+  - {fileID: 959683058}
+  - {fileID: 346656854}
+  - {fileID: 1450733433}
+  - {fileID: 724683671}
   spellSlots:
   - {fileID: 1242273207}
   - {fileID: 1939461271}
@@ -4670,6 +4711,7 @@ MonoBehaviour:
   text: {fileID: 2039664984}
   slotIndex: 2
   isRune: 0
+  coordinator: {fileID: 1685793771}
 --- !u!224 &1768182529 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8341070342592492384, guid: 5df65bf87fe62324cadb8a4e6fb85ae9, type: 3}
@@ -5353,6 +5395,7 @@ MonoBehaviour:
   text: {fileID: 1529846804}
   slotIndex: 1
   isRune: 0
+  coordinator: {fileID: 1685793771}
 --- !u!1001 &1991028697
 PrefabInstance:
   m_ObjectHideFlags: 0
