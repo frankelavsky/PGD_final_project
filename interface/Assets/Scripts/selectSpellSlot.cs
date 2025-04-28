@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Apple.Accessibility;
 using TMPro;
 
 public class selectSpellSlot : MonoBehaviour {
@@ -11,11 +12,17 @@ public class selectSpellSlot : MonoBehaviour {
     public int slotIndex; // = 0;
     public bool isRune = false;
     public toggleCoordinator coordinator;
+    public AccessibilityNode accessibilityNode;
 
     void Start()
     {
         // Fetch the Toggle GameObject
         toggle = GetComponent<Toggle>();
+
+        accessibilityNode = GetComponent<AccessibilityNode>();
+        accessibilityNode.accessibilityValueDelegate = () => {
+            return text.text;
+        };
 
         // Add listener for when the state of the Toggle changes, to take action
         toggle.onValueChanged.AddListener(delegate {
