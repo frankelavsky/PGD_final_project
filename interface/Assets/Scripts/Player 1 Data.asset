@@ -22,4 +22,6 @@ MonoBehaviour:
   maxDeathHealth: 50
   runeLimit: 1
   glyphsSelected: []
+  glyphsLocked: []
   runesSelected: []
+  runesLocked: []

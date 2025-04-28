@@ -6,6 +6,7 @@ public class selectRune : MonoBehaviour {
     public SpellComponentData rune;
     public Player player;
     public Toggle toggle;
+    public toggleCoordinator coordinator;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class selectRune : MonoBehaviour {
         } else {
             player.RemoveRune(rune);
         }
+        coordinator.updateRuneSlot();
     }
 
     // public void setGlyphStatus()

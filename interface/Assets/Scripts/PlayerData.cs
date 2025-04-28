@@ -14,5 +14,7 @@ public class PlayerData : ScriptableObject
     public float maxDeathHealth = 50;
     public float runeLimit = 1;
     public List<SpellComponentData> glyphsSelected = new List<SpellComponentData>();
+    public List<SpellComponentData> glyphsLocked = new List<SpellComponentData>();
     public List<SpellComponentData> runesSelected = new List<SpellComponentData>();
+    public List<SpellComponentData> runesLocked = new List<SpellComponentData>();
 }

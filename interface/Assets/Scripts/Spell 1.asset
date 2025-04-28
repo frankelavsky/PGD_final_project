@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44ed10f5cc63ae84e9a16d4892953a61, type: 3}
-  m_Name: Player 1
+  m_Script: {fileID: 11500000, guid: 0c5264b3b8f57de4da386063d26ccf49, type: 3}
+  m_Name: Spell 1
   m_EditorClassIdentifier: 
-  playerData: {fileID: 11400000, guid: 17af501deba48884690f780801b943a0, type: 2}
-  spell: {fileID: 11400000, guid: 23221d608d7a52b439174ceb3f6ffd2c, type: 2}
+  player: {fileID: 11400000, guid: a9e5fa658107bd14aafd17831e19ae44, type: 2}
+  spellSlots: []
+  lockedGlyphSlots: 0
+  lockedRuneSlots: 0
+  runeSlot: {fileID: 0}

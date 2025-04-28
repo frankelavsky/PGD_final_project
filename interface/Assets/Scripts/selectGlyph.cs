@@ -6,6 +6,7 @@ public class selectGlyph : MonoBehaviour {
     public SpellComponentData glyph;
     public Player player;
     public Toggle toggle;
+    public toggleCoordinator coordinator;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class selectGlyph : MonoBehaviour {
         } else {
             player.RemoveGlyph(glyph);
         }
+        coordinator.updateGlyphSlots();
     }
 
     // public void setGlyphStatus()
