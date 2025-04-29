@@ -3,7 +3,6 @@
     "com.apple.unityplugin.accessibility": "file:../ExternalPackages/com.apple.unityplugin.accessibility-1.1.4.tgz",
     "com.apple.unityplugin.core": "file:../ExternalPackages/com.apple.unityplugin.core-3.1.8.tgz",
     "com.unity.collab-proxy": "2.7.1",
-    "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.31",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.inputsystem": "1.14.0",
